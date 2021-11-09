@@ -1,3 +1,4 @@
+#Disclaimer: Should not be used for cryptography!
 class randomNumberGenerator:
     
     def __init__( self, amount = 0, minRange = 0, maxRange = 0 ):
