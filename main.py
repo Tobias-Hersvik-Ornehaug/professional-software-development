@@ -10,8 +10,8 @@ class randomNumberGenerator:
                 self.maxRange = int( maxRange )
                 
             else:
-                raise TypeError( 'Invalid type' )
-                raise ValueError( 'Invalid amount or range' )
+                raise TypeError( 'Invalid Type' )
+                raise ValueError( 'Invalid Amount or Range' )
         
         except ValueError:
             print('ValueError: Range has to be LARGER than amount!')
