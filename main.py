@@ -13,12 +13,12 @@ class randomNumberGenerator:
                 raise ValueError( 'Invalid amount or range' )
         
         except ValueError:
-            print('Range has to be bigger than the amount!')
+            print('ValueError: Range has to be LARGER than amount!')
         
         except TypeError:
-            print('Class only accept integer type!')
+            print('TypeError: Class values has to be of type integer!')
         
-    def get_randomNumber( self ):
+    def generateRandomNumberList( self ):
         from random import sample
         randomNumbersList = sample( range( self.minRange, self.maxRange ), self.amount )
         
